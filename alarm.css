@@ -1,0 +1,65 @@
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h1 {
+    color: rgb(53, 167, 187);
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    text-align: center;
+}
+
+stopwatch {
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10%;
+    background-color: #fff;
+    box-shadow: 0 0 5px #fff;
+    text-align: center;
+}
+
+button {
+    font-size: 16px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.startbutton {
+    background-color: blueviolet;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    color: black;
+    background-color: yellow;
+}

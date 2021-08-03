@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Abre Head -->
+    <title> Time Machine </title>
+    <meta charset="utf-8" />
+    <!-- Meta para reconhecer linguagem Abnt -->
+
+    <link href="alarm.css" rel="stylesheet" />
+</head>
+<!-- Fecha Head -->
+
+<body>
+    <audio id="sound" src="alarm.mp3" style="display: none;"></audio>
+    <!-- Abre Body -->
+    <div>
+        <h1>Alarm and stopwatch</h1>
+    </div>
+
+    <img src="alarm.jpg" alt="alarm" style="width:15%">
+
+    <div class="container">
+        <h2> Minutes
+            <select id="minutos" name="minutos"></select>
+        </h2>
+
+        <h2> Seconds
+            <select id="segundos" name="minutos"></select>
+        </h2>
+    </div>
+
+    <div id="display">
+        <h2>00:00</h2>
+    </div>
+
+    <div>
+        <button id="start" class="startbutton"> Start </button>
+    </div>
+
+    </br>
+    </br>
+
+
+
+    <img src="stopwatch without bkg.png" alt="stopwatch" style="width:35%">
+
+    </br>
+
+    <div class="stopwatch">
+        <button onclick="iniciar();" id="iniciar" class="green"> Start </button>
+        <button onclick="pausar();" id="pausar" class="yellow"> Pause </button>
+        <button onclick="parar();" id="parar" class="red"> Stop </button>
+        <h2 id="counter">00:00:00</h2>
+    </div>
+
+    <!-- Arquivo back end -->
+    <script type="text/javascript" src="alarm.js"></script>
+    <!-- Arquivo back end -->
+
+</body>
+<!-- Fecha Head -->
+
+</html>
